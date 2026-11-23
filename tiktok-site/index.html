@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoClip</title>
+<meta name="description" content="AutoClip is a desktop tool that cuts long videos into short vertical clips and uploads them to the creator's own TikTok account.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><nav>
+  <span class="brand">AutoClip</span>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</nav></header>
+<main>
+  <h1>AutoClip</h1>
+  <p class="muted">A desktop application for Windows and Linux.</p>
+
+  <p>AutoClip helps a creator turn long videos and live streams into short vertical clips
+  (9:16) with subtitles, and publish the finished clips to the creator's own TikTok account.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Finds the most engaging moments in a long video or a recorded live stream.</li>
+    <li>Renders vertical clips with subtitles and a crop area chosen by the user.</li>
+    <li>Lets the user pick which clips to publish, for example only the highest-rated ones.</li>
+    <li>Uploads the selected clips to TikTok through the official
+        <a href="https://developers.tiktok.com/doc/content-posting-api-get-started">Content Posting API</a>,
+        only after the user has connected their own TikTok account and only to that account.</li>
+  </ul>
+
+  <h2>How TikTok is used</h2>
+  <p>The app uses <strong>Login Kit</strong> so that the user can authorize it, and the
+  <strong>Content Posting API</strong> to upload the user's own videos. It requests the
+  <code>user.info.basic</code> and <code>video.publish</code> scopes. Videos are processed locally on the
+  user's computer; nothing is uploaded to any server other than TikTok. The user can disconnect the account
+  inside the app at any time and can also revoke access in TikTok under
+  <em>Settings and privacy → Security &amp; permissions → Apps and services</em>.</p>
+
+  <h2>Documents</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="terms.html">Terms of Service</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:wjes411@gmail.com">wjes411@gmail.com</a></p>
+
+  <footer>
+    © 2026 wjes. AutoClip is not affiliated with or endorsed by TikTok.
+    TikTok is a trademark of its respective owner.
+  </footer>
+</main>
+</body>
+</html>
